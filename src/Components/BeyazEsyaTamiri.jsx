@@ -25,7 +25,7 @@ function BeyazEsyaTamiri() {
 
                     <Button
                         variant="contained"
-                        onClick={() => window.location.href = "tel:05464895158"}
+                        onClick={() => window.location.href = "tel:9055199804298"}
                         sx={{
                             marginTop: '13px',
                             backgroundColor: "black",

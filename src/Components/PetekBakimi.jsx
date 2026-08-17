@@ -24,7 +24,7 @@ function Petek() {
                     <hr className='PetekBakimiHr' />
 
                     <Button
-                        onClick={() => window.location.href = "tel:05464895158"}
+                        onClick={() => window.location.href = "tel:9055199804298"}
                         variant="contained"
                         sx={{
                             marginTop: '13px',
@@ -382,7 +382,7 @@ function Petek() {
 
                 <Button
                     variant="contained"
-                    onClick={() => window.location.href = "tel:05464895158"}
+                    onClick={() => window.location.href = "tel:9055199804298"}
                     sx={{
                         marginTop: '15px',
                         backgroundColor: "black",
