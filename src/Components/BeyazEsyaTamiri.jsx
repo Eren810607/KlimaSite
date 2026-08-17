@@ -56,7 +56,7 @@ function BeyazEsyaTamiri() {
 
                 <p>
 
-                    <b>Bursa Klima Kombi</b> olarak Bursa genelinde buzdolabı, çamaşır
+                    <b>Prime Klima</b> olarak Bursa genelinde buzdolabı, çamaşır
                     makinesi, bulaşık makinesi ve diğer beyaz eşyalarınız için teknik
                     servis ve tamir hizmetleri sunuyoruz. Cihazlarınızda meydana gelen
                     arızaların doğru şekilde tespit edilmesi ve uygun çözümler

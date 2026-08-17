@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/footer.css';
 
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
-import logo from "../images/klimalogo.png";
+import logo from "../images/primelogo.png";
 
 import { Link } from "react-router-dom";
 
@@ -20,11 +20,11 @@ function Footer() {
                     <img
                         className="FooterLogo"
                         src={logo}
-                        alt="Bursa Klima Kombi Logo"
+                        alt="Prime Klima Logo"
                     />
 
                     <h2 className="FooterPromTitle">
-                        Bursa Klima Kombi
+                        Prime Klima
                     </h2>
 
                 </div>
@@ -32,7 +32,7 @@ function Footer() {
                 <hr className="FooterPromHr" />
 
                 <p className="PromotionText">
-                    Bursa Klima Kombi; klima, kombi ve beyaz eşya bakım,
+                    Prime Klima; klima, kombi ve beyaz eşya bakım,
                     onarım ve servis hizmetlerinde güvenilir ve kaliteli
                     çözümler sunar. Bursa genelinde hızlı ve profesyonel
                     teknik servis hizmeti sağlıyoruz.
@@ -87,12 +87,7 @@ function Footer() {
                         </Link>
                     </li>
 
-                    <li className="FooterLinks">
-                        <ArrowRightIcon />
-                        <Link to="/iletisim">
-                            İletişim
-                        </Link>
-                    </li>
+
 
                 </ul>
 
@@ -156,7 +151,7 @@ function Footer() {
                 <hr />
 
                 <p>
-                    © 2026 Bursa Klima Kombi | Design By Eren Kaya
+                    © 2026 Prime Klima | Design By Eren Kaya
                 </p>
 
             </div>

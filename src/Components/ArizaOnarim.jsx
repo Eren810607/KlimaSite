@@ -66,7 +66,7 @@ function ArizaOnarim() {
                 <div className="ArizaIntroText">
 
                     <p>
-                        <b>Bursa Klima Kombi</b> olarak klima, kombi ve beyaz
+                        <b>Prime Klima</b> olarak klima, kombi ve beyaz
                         eşyalarınızda meydana gelen arızaların tespiti,
                         onarımı ve gerekli durumlarda parça değişimi için
                         teknik servis hizmeti sunuyoruz.

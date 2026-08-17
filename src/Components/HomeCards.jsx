@@ -53,7 +53,7 @@ function SelectActionCard() {
                 <Card key={card.id}>
 
                     <CardActionArea
-                        onClick={() => navigate(card.link)}
+
                         sx={{
                             height: '100%',
                         }}
@@ -62,7 +62,8 @@ function SelectActionCard() {
                         <CardContent
                             sx={{
                                 height: '100%',
-                                backgroundColor: '#c5e7e9',
+                                cursor: 'default',
+                                backgroundColor: '#05b681d8',
                             }}
                         >
 
@@ -81,11 +82,14 @@ function SelectActionCard() {
 
                             <Button
                                 color="primary"
+                                onClick={() => navigate(card.link)}
                                 variant="outlined"
                                 sx={{
                                     backgroundColor: "#000",
                                     color: "#fff9f9",
-                                    borderColor: '#fff'
+                                    border: 'none',
+                                    outline: 'none',
+                                    borderRadius: '10px',
                                 }}
                             >
                                 Detay

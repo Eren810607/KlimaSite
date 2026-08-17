@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Header from "../HeaderFooter/Header";
 import Footer from "../HeaderFooter/Footer";
-
+import AccordionPage from "./AccordionPage";
 import Sliderimage1 from "../images/klima_slider1.png";
 import Sliderimage2 from "../images/klima_slider2.png";
 
@@ -19,7 +19,7 @@ import HomeTexts from "../Components/HomeTexts";
 
 function Home() {
 
-    const whatsappMessage = "Merhaba, Bursa Klima Kombi hakkında bilgi almak istiyorum.";
+    const whatsappMessage = "Merhaba, Prime Klima hakkında bilgi almak istiyorum.";
 
 
     const Slider = SliderImport.default ?? SliderImport;
@@ -61,7 +61,7 @@ function Home() {
 
 
             <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }} >
-                <h1 className="HomepageTitle">Bursa Klima Kombi</h1>
+                <h1 className="HomepageTitle">Prime Klima</h1>
                 <hr className="HomeHr" />
             </div>
 
@@ -76,8 +76,14 @@ function Home() {
             </div>
 
 
+            <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }} >
+                <h1 className="HomepageTitle">Sıkça Sorulan Sorular</h1>
+                <hr className="HomeHr" />
 
-        </div>
+                <AccordionPage />
+            </div>
+
+        </div >
     )
 }
 

@@ -18,7 +18,7 @@ import ExpandMore from "@mui/icons-material/ExpandMore";
 
 import "../App.css";
 
-import logo from "../images/klimalogo.png";
+import logo from "../images/primelogo.png";
 import CloseIcon from '@mui/icons-material/Close';
 
 function MUIAppbar() {
@@ -68,6 +68,7 @@ function MUIAppbar() {
         },
 
     ];
+
 
     const DrawerList = (
         <Box
@@ -179,14 +180,21 @@ function MUIAppbar() {
     return (
         <div>
 
+            <Box sx={{
+                height: '40px', width: '100%', color: 'black', fontWeight: 'bold', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#b9f6f8',
+            }}>
+
+                <p style={{ fontFamily: 'arial', cursor: 'pointer' }}>Yazın Sıcağa Kışın Soğuğa Elveda</p>
+
+            </Box>
             <Box sx={{ flexGrow: 1 }}>
 
                 <AppBar
                     position="static"
-                    sx={{ backgroundColor: "#232323" }}
+                    sx={{ backgroundColor: "#232323", height: { lg: '80px', xs: '75px', md: '70px' } }}
                 >
 
-                    <Toolbar>
+                    <Toolbar sx={{ paddingTop: { lg: '17px', xs: '14px', md: '12px' } }}>
 
                         <IconButton
                             onClick={toggleDrawer(true)}
@@ -213,10 +221,15 @@ function MUIAppbar() {
 
                             <img
                                 style={{
+                                    borderRadius: '10px',
                                     cursor: "pointer",
                                     width: '50px',
                                     height: '50px'
                                 }}
+
+                                onClick={() => navigate("/")}
+
+
                                 src={logo}
                                 alt="Site Logo"
                             />
@@ -226,7 +239,7 @@ function MUIAppbar() {
 
                         <Button
                             color="inherit"
-                            href="tel:+905464895158"
+                            href="tel:+9055199804298"
                         >
                             Bizi Arayın
                         </Button>

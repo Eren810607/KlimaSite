@@ -44,14 +44,14 @@ function About() {
             <div className='AboutDiv'>
 
                 <h1 className='AboutH1'>
-                    Bursa Klima Kombi Firması Kimdir?
+                    Prime Klima Firması Kimdir?
                 </h1>
 
                 <hr className='AboutHr' />
 
                 <p style={{ marginTop: '10px', marginBottom: '15px' }}>
 
-                    <b>Bursa Klima Kombi</b>, Bursa genelinde klima, kombi ve beyaz eşya teknik servis alanında hizmet sunan bir işletmedir. Müşterilerimizin ihtiyaçlarına hızlı, güvenilir ve çözüm odaklı şekilde cevap vermeyi amaçlıyoruz.
+                    <b>Prime Klima</b>, Bursa genelinde klima, kombi ve beyaz eşya teknik servis alanında hizmet sunan bir işletmedir. Müşterilerimizin ihtiyaçlarına hızlı, güvenilir ve çözüm odaklı şekilde cevap vermeyi amaçlıyoruz.
 
                     <br />
                     <span className="desktopBreak"><br /></span>
@@ -74,7 +74,7 @@ function About() {
                     <br />
                     <span className="desktopBreak"><br /></span>
 
-                    <b>Bursa Klima Kombi</b> olarak; klima bakımı, kombi bakımı, petek temizleme, beyaz eşya tamiri, arıza onarımı ve parça değişimi ihtiyaçlarınızda Bursa genelinde sizlere hizmet vermekten memnuniyet duyuyoruz.
+                    <b>Prime Klima</b> olarak; klima bakımı, kombi bakımı, petek temizleme, beyaz eşya tamiri, arıza onarımı ve parça değişimi ihtiyaçlarınızda Bursa genelinde sizlere hizmet vermekten memnuniyet duyuyoruz.
 
                     <br />
                     <span className="desktopBreak"><br /></span>

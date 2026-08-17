@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/home.css'
-import HomePageImage from "../images/klimaTamir.png";
+import HomePageImage from "../images/homeimage.png";
 
 
 function HomeTexts() {
@@ -11,7 +11,7 @@ function HomeTexts() {
 
 
             <div className='mainTextBox'>
-                <h2 className='HomepageTitle'>Bursa Klima Kombi Olarak | Ne Yapıyoruz?</h2>
+                <h2 className='HomepageTitle'>Prime Klima Olarak | Ne Yapıyoruz?</h2>
                 <div className='HomePageImageDiv'>
 
                     <img className='HomePageImage' src={HomePageImage} alt="" />
@@ -27,7 +27,7 @@ function HomeTexts() {
                     Bursa genelinde kaliteli işçilik, doğru arıza tespiti ve müşteri memnuniyetini ön planda tutarak hizmet veriyoruz. Cihazınızda meydana gelen bir arıza için destek almak, bakım yaptırmak veya detaylı bilgi edinmek için bizimle iletişime geçebilirsiniz.
                     <br /><br />
 
-                    <b>Bursa Klima Kombi</b> | Teknik servis ihtiyaçlarınız için güvenilir çözüm ortağınız.
+                    <b>Prime Klima</b> | Teknik servis ihtiyaçlarınız için güvenilir çözüm ortağınız.
                     <br /><br />
                 </p>
 

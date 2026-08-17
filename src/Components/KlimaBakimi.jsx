@@ -48,7 +48,7 @@ function KlimaBakimi() {
 
                 <p style={{ marginTop: '10px', marginBottom: '15px' }}>
 
-                    <b>Bursa Klima Kombi</b> olarak Bursa genelinde klima bakım ve temizleme hizmetleri sunuyoruz.
+                    <b>Prime Klima</b> olarak Bursa genelinde klima bakım ve temizleme hizmetleri sunuyoruz.
                     Klimalarınızın daha verimli, sağlıklı ve uzun ömürlü çalışabilmesi için düzenli bakım ve temizlik
                     işlemlerinin yapılması büyük önem taşımaktadır.
 
@@ -99,7 +99,7 @@ function KlimaBakimi() {
                     <span className="desktopBreak"><br /></span>
 
 
-                    <b>Bursa Klima Kombi</b> olarak amacımız; klimanızın daha temiz, verimli ve güvenilir şekilde
+                    <b>Prime Klima</b> olarak amacımız; klimanızın daha temiz, verimli ve güvenilir şekilde
                     çalışmasına yardımcı olmak ve sizlere kaliteli teknik servis hizmeti sunmaktır.
 
                     <br />
